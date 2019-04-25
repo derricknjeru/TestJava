@@ -4,6 +4,11 @@ import main.StringCalculator;
 import org.junit.Assert;
 import org.junit.Test;
 
+
+/**
+ * @Link https://jenkins.io/doc/tutorials/build-a-java-app-with-maven/
+ */
+
 public class SimpleCalculatorTest {
 
     /*@Test(expected = RuntimeException.class)

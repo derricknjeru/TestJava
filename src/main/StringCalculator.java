@@ -1,5 +1,6 @@
 package main;
 
+
 public class StringCalculator {
 
     public static int add(String numbers) {
@@ -17,5 +18,10 @@ public class StringCalculator {
         }
         //}
         return returnValue;
+    }
+
+    public static void main(String[] args) {
+        System.out.println("The result is::" + add("1,2"));
+
     }
 }
